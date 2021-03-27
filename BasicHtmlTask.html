@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasicTask</title>
+    <style>
+        table,
+        th,
+        td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        th,
+        td{
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 600px; text-align: center; background-color: cadetblue;">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="fname">Firstname</label>
+      <input type="text" id="fname" >
+      <label for="lname">Lastname</label>
+      <input type="text" id="lname"><br>
+      <label for="Email">Your Email</label>
+      <input type="email" id="Email">
+      <label for="number">Phone No</label>
+      <input type="text" id="number"><br>
+      <label for="query">Purpose</label>
+      <input type="text" id="query">
+      <label for="job">Job Title</label>
+      <input type="text" id="job"><br>
+      <label>Select Inquiry type</label>
+      <select>
+          <option value="query">Query</option>
+          <option value="openings">Job Openings</option>
+          <option value="issue">Tech issue</option>
+      </select>
+      <label>Message</label>
+      <input type="text"><br>
+      <input type="radio">
+      <label>I Confirm, I have read all the policy.</label><br>
+      <input type="radio">
+      <label>I Want to receive updates</label><br>
+      <button>Submit</button>
+    </form>
+</div>
+<hr>
+<h2>List Element</h2>
+<ul>
+    <li>Programming language</li>
+    <ul>
+        <li>JavaScript</li>
+        <ol type="a">
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue.js</li>
+        </ol>
+        <li>Python</li>
+        <ol type="a">
+            <li>Django Framework</li>
+            <li>Flask Framework</li>
+        </ol>
+        <li>Java</li>
+        <ol type="a">
+        <li>Spring</li>
+        <li>Maven</li>
+        <li>Hibernate</li>
+        </ol>
+    </ul>
+    <li>Database</li>
+    <ul>
+    <li>MySQL</li>
+     <li>MongoDB</li>
+     <li>Casandra</li>
+    </ul>
+</ul>
+<hr>
+<h2>Link opening</h2>
+<a href="https://www.google.com" target="_blank">Google</a>
+<hr>
+<h2>Table</h2>
+<table>
+    <tbody>
+    <tr>
+        <th rowspan="2">State of health</th>
+        <th colspan="2">Fasting Value</th>
+        <th>After remaining</th>
+    </tr>
+    <tr>
+        
+        <th>Minimum</th>
+        <th>Normal</th>
+        <th>2 hour of Eating</th>
+    </tr>
+    <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+    </tr>
+    <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+    </tr>
+    <tr>
+        <td>Diabetes</td>
+        <td>More Than 126</td>
+        <td>NA</td>
+        <td>More Than 200</td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<h2>Highlight Text widout using CSS</h2>
+    <mark>HTML & CSS is awesome</mark>
+    <hr>
+    <h2>Input Tags</h2>
+    <input type="checkbox">
+    <label>checkbox</label><br>
+    <input type="button" value="Button">
+    <label>Button</label><br>
+    <input type="submit" value="Login">
+    <label>Submit</label><br>
+    <input type="reset" value="Reset">
+    <label>Reset</label><br>
+    <input type="text">
+    <label>TextBox</label><br>
+    <input type="radio">
+    <label>Radio</label><br>
+    <input type="search">
+    <label>SearchBox</label><br>
+    <input type="range">
+    <label>Range</label><br>
+    <input type="url">
+    <label>UrlBox</label><br>
+    <input type="time">
+    <label>TimeInputBox</label><br>
+    <input type="file"><br>
+    <input type="color"><br>
+    <input type="image">
+    <input type="hidden"> 
+</body>
+</html>
